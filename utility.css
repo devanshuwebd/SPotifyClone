@@ -1,0 +1,25 @@
+.border{
+    border: 2px solid white;
+}
+.flex{
+    display:flex;
+}
+.justifycontentc{
+    justify-content: center;
+}
+.alignitemsc{
+    align-items: center;
+}
+.borderrad{
+    border-radius: 12px;
+}
+.weight{
+    font-weight: 600;
+    font-size: 19px;
+}
+.cursor{
+    cursor: pointer;
+}
+.invert{
+    filter: invert(1);
+}

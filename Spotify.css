@@ -1,0 +1,304 @@
+* {
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+
+:root {
+    --color: #1f1f1f;
+    --seccolor: #121212;
+    --color2:#7c7c7c;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    gap: 10px;
+}
+
+.left {
+    width: 24vw;
+    flex-direction: column;
+    gap: 10px;
+}
+.upper {
+    padding: 17px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--seccolor);
+    gap: 12px;
+}
+.home {
+    position: relative;
+    left: 8px;
+    gap: 20px;
+    padding: 9px 6px;
+    width: 320px;
+}
+.home:hover{
+    background-color: var(--color);
+}
+.search:hover{
+    background-color: var(--color);
+}
+
+.search {
+    position: relative;
+    left: 8px;
+    gap: 20px;
+    width: 320px;
+    padding: 9px 6px;
+}
+
+.library {
+    padding: 15px;
+    padding-bottom: 15px;
+    padding-top: 24px;
+    position: relative;
+    left: 8px;
+    gap: 20px;
+}
+
+.icon{
+    position: relative;
+    left:5px;
+    padding: 0px 6px;
+}
+
+.lower {
+    padding: 0px;
+    background-color: var(--seccolor);
+}
+
+.right {
+    width: 74vw;
+    position: relative;
+    background-color: var(--seccolor);
+}
+
+.text {
+    margin: 10px;
+    padding: 18px 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background-color: var(--color);
+}
+
+.textbtn {
+    font-weight: 900;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.other1 {
+    color:var(--color2);
+    font-size: 11px;
+    gap: 17px;
+    /* justify-content: center; */
+    position: relative;
+    left: 7px;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.other2 {
+    color: var(--color2);
+    font-size: 11px;
+    gap: 17px;
+    padding: 15px;
+    padding-bottom: 0px;
+    position: relative;
+    left: 7px;
+}
+
+.other3 {
+    font-size: 14px;
+    padding: 15px;
+    position: relative;
+    left: 7px;
+}
+
+.lang {
+    margin: 15px;
+    margin-top: 0px;
+    border: 1px solid var(--color2);
+    display: flex;
+    filter: invert(1);
+    align-items: center;
+    gap: 4px;
+}
+.lang:hover{
+    border: 1px solid white;
+    transform: scale(110%);
+}
+.btn2{
+    position: relative;
+    left: 7px;
+}
+.textbtn:hover{
+    transform: scale(110%);
+}
+.header{
+    padding:10px 16px;
+    justify-content: space-between;
+    text-align: center;
+    background-color:#101010;
+    height: 40px;
+}
+.signup{
+    color: var(--color2);
+    border-radius: 32px;
+    position: relative;
+    text-align: center;
+    padding: 11px 20px;
+}
+.login{
+    background-color: white;
+    color: black;
+    border-radius: 32px;
+    text-align: center;
+    padding: 11px 20px;
+}
+.nav{
+    position: relative;
+    top: 8px;
+}
+.signup:hover{
+    transform: scale(110%);
+}
+.login:hover{
+    transform: scale(110%);
+}
+.spotifyplaylists{
+    padding:36px;
+}
+.title{
+    font-size: 23px;
+    font-weight: 700;
+    position: relative;
+    left: 11px;
+}
+
+.imageofplaylist img{
+    object-fit:contain;
+    width:100%;
+}
+.cards{
+    gap:24px;
+    margin: 26px 0px;
+    width: 68vw;
+    overflow: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+.card{
+    gap: 7px;
+    width:190px;
+    flex-shrink: 0;
+    padding: 11px;
+    padding-bottom: 0px;
+    position: relative;
+    border-radius: 12px;
+}
+.playbutton{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    opacity:0;
+}
+.active:hover{
+    transform: scale(110%);
+}
+.active{
+    opacity: 1;
+    bottom: 145px;
+    transition: opacity 0.3s ease-in 0s,
+                bottom 0.3s ease-in 0s;
+}
+.card:hover{
+    background-color: var(--color);
+    transform: scale(105%);
+}
+.playlist{
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 13px;
+}
+.imageofplaylist{
+    padding-top: 10px;
+}
+.contentofplaylist{
+    padding-top: 13px;
+    font-size:13px;
+    height:50px;
+}
+.playlist:hover{
+    text-decoration: underline;
+}
+.contentofplaylist:hover{
+    text-decoration: underline;
+}
+.player{
+    width: 74vw;
+    height: 73px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: var(--color);
+    color: white;
+    position: relative;
+    bottom: -69px;
+}
+.previous{
+    position: absolute;
+    bottom: 26px;
+    right: 466px;
+}
+.stop{
+    position: absolute;
+    bottom: 24px;
+    right: 421px;
+}
+.next{
+    position: absolute;
+    bottom: 26px;
+    right: 376px;
+}
+.pic{
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+.song{
+    position: absolute;
+    top: 18px;
+    left: 82px;
+}
+.control{
+    width: 67vw;
+    height: 0;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 14px;
+    left: 82px;
+}
+.circle{
+    border-radius: 100%;
+    background-color: white;
+    height: 13px;
+    width: 13px;
+    position: absolute;
+    top: -6px;
+    left: 0%;
+    z-index: 1;
+
+}
+.duration{
+    position: absolute;
+    right: 21px;
+    top: 17px;
+    font-size: 15px;
+}

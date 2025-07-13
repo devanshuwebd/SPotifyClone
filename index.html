@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player:Music for everyone</title>
+    <link rel="shortcut icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/768px-Spotify_icon.svg.png?20220821125323"
+        type="image/x-icon">
+    <link rel="stylesheet" href="Spotify.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left flex">
+            <div class="upper borderrad">
+                <div class="icon"><img
+                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Full_Logo_RGB_White.png"
+                        alt="spotify" width="105px" height="30px"></div>
+                <div class="home flex weight"><img src="https://www.svgrepo.com/show/535437/home.svg" alt="home"
+                        width="22px" height="22px" style="filter:invert(1)">Home</div>
+                <div class="search flex weight"><img src="https://www.svgrepo.com/show/7109/search.svg" alt="search"
+                        width="20px" height="20xp" style="filter:invert(1)">Search</div>
+            </div>
+            <div class="lower borderrad">
+                <div class="library flex weight"><img src="https://www.svgrepo.com/show/435359/library.svg" alt=""
+                        width="20px" height="20px" style="filter:invert(1)">Your Library</div>
+                <div class="text">
+                    <div class="h1 weight">Create your first playlist</div>
+                    <div class="h2">It's easy,we'll help you</div>
+                    <div class="btn1"><button class="textbtn cursor">Create Playlist</button></div>
+                </div>
+                <div class="text">
+                    <div class="h1 weight">Let's find some podcasts to follow</div>
+                    <div class="h2">We'll keep you updated on </div>
+                    <div class="btn1"><button class="textbtn cursor">Browse podcasts</button></div>
+                </div>
+                <footer>
+                    <div class="other1 flex">
+                        <span><a style="color: white;" href="https://www.spotify.com/in-en/legal/end-user-agreement/"
+                                target="_blank">Legal</a></span>
+                        <span><a style="color: white;" href="https://www.spotify.com/in-en/safetyandprivacy"
+                                target="_blank">Safety and Privacy Center</a></span>
+                        <span><a style="color: white;" href="http://spotify.com/in-en/legal/privacy-policy/"
+                                target="_blank">Privacy Policy</a></span>
+                        <span><a style="color: white;" href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                                target="_blank">Cookies</a></span>
+                    </div>
+                    <div class="other2 flex">
+                        <span><a style="color: white;" href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                                target="_blank">About Ads</a></span>
+                        <span><a style="color: white;" href="https://www.spotify.com/in-en/accessibility"
+                                target="_blank">Accessibility</a></span>
+                    </div>
+                    <div class="other3"><a style="color: white;"
+                            href="https://www.spotify.com/in-en/legal/cookies-policy/" target="_blank">Cookies</a></div>
+                    <div class="btn2"><button class="lang cursor"><img
+                                src="https://www.svgrepo.com/show/532531/globe.svg" alt="globe" height="20px"
+                                width="20px">
+                            <select style="border: none;">
+                                <option value="English">English</option>
+                                <option value="Hindi">Hindi</option>
+                            </select>
+                        </button></div>
+                </footer>
+            </div>
+        </div>
+        <div class="right borderrad">
+            <header class="header flex">
+                <div class="nav flex"><img src="https://www.svgrepo.com/show/486232/left-arrow-backup-2.svg"
+                        width="24px" height="24px" style="filter:invert(1);"><img
+                        src="https://www.svgrepo.com/show/486236/right-arrow-backup-2.svg" width="24px" height="24px"
+                        style="filter:invert(1);"></div>
+                <div class="btn3 flex">
+                    <span class="signup cursor"><a
+                            href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F"
+                            style="text-decoration: none; color: var(--color2);" target="_blank">Sign up</a></span>
+                    <span class="login cursor"><a
+                            href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F"
+                            style="text-decoration: none; color: black;" target="_blank">Log in</a></span>
+                </div>
+            </header>
+            <div class="spotifyplaylists">
+                <div class="title">Spotify Playlists</div>
+                <div class="cards flex"></div>
+            </div>
+            <footer class="footer flex"></footer>
+        </div>
+    </div>
+    <script src="Spotify.js"></script>
+</body>
+
+</html>
